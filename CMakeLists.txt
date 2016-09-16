@@ -141,6 +141,13 @@ include_directories(
 # target_link_libraries(camera_calibration_node
 #   ${catkin_LIBRARIES}
 # )
+add_executable(camera_alignment
+  src/camera_alignment.cpp
+)
+target_link_libraries(camera_alignment
+  ${catkin_LIBRARIES}
+)
+
 
 #############
 ## Install ##
