@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>camera_calibration</name>
+  <name>camera_calibration_tool</name>
   <version>0.0.0</version>
   <description>The camera_calibration package</description>
 
